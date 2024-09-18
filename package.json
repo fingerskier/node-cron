@@ -1,0 +1,16 @@
+{
+  "name": "node-cron-server",
+  "version": "1.0.0",
+  "description": "NodeJS CRON server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "fingerskier",
+  "license": "MIT",
+  "dependencies": {
+    "node-cron": "^3.0.3"
+  }
+}
