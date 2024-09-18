@@ -1,7 +1,7 @@
 {
-  "name": "node-cron-server",
+  "name": "node-cron-runner",
   "version": "2024.9.18.0",
-  "description": "NodeJS CRON server",
+  "description": "NodeJS CRON runner",
   "main": "index.js",
   "type": "module",
   "scripts": {

@@ -43,3 +43,26 @@ export default self
 ```
 
 Every `js` file in the `plugins` directory is auto-run.
+
+
+## Example App
+
+```javascript
+import dotenv from 'dotenv'
+import NCR from 'node-cron-runner'
+import path from 'path'
+
+dotenv.config()
+
+
+const __dirname = path.resolve()
+
+const pluginDirectory = process.env.PLUGIN_DIRECTORY
+
+const pluginPath = path.join(__dirname, pluginDirectory)
+
+
+NCR.init(pluginPath)
+
+NCR.start()
+```
